@@ -33,3 +33,10 @@ void ItemCollection::findByName(string name) {
     }
     cout << "Error fetching information!" << endl;
 }
+
+void ItemCollection::printList() {
+    for(int i=0; i<itemNum; i++) {
+        itemList[i].print();
+        cout << endl;
+    }
+}
