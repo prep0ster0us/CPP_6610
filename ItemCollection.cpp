@@ -3,12 +3,19 @@
 //
 
 #include "Item.hpp"
-#include"ItemCollection.hpp"
+#include "ItemCollection.hpp"
 
 void ItemCollection::add(Item obj) {
     if(itemNum < MAX_ITEMS) {
         itemList[itemNum] = obj;
         ++itemNum;
+    }
+}
+
+void ItemCollection::printList() {
+    for(int i=0; i<itemNum; i++) {
+        itemList[i].print();
+        cout << endl;
     }
 }
 
@@ -34,9 +41,3 @@ void ItemCollection::findByName(string name) {
     cout << "Error fetching information!" << endl;
 }
 
-void ItemCollection::printList() {
-    for(int i=0; i<itemNum; i++) {
-        itemList[i].print();
-        cout << endl;
-    }
-}

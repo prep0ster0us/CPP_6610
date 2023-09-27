@@ -49,3 +49,9 @@ int main() {
 
     return 0;
 }
+
+void addItem(ItemCollection& itemCol, int count) {
+    Item temp;
+    temp.read();
+    itemCol.add(temp);
+}

@@ -7,9 +7,9 @@
 
 #define MAX_ITEMS 100
 
- #include "Item.hpp"
 #include <iostream>
 #include <string>
+#include "Item.hpp"
 
 using namespace std;
 
@@ -25,7 +25,7 @@ public:
     void findById(unsigned long id);
     void findByName(string name);
     // getter
-    const int getTotalItems() { return this->itemNum; }
+    int getTotalItems() { return this->itemNum; }
 
     // setter
 //    void setTotalItems(int itemNum) { this->itemNum = itemNum; }
