@@ -17,7 +17,7 @@ private:
     int quantity;
 
 public:
-    Item() = default;
+    Item() {};
     Item(unsigned long id, string name, float cost, int quantity) {
         this->id = id;
         this->name = name;

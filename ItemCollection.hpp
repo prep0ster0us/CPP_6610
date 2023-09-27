@@ -25,6 +25,7 @@ public:
     void findById(unsigned long id);
     void findByName(string name);
     // getter
+
     int getTotalItems() { return this->itemNum; }
 
     // setter

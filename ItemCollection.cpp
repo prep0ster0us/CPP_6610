@@ -22,22 +22,22 @@ void ItemCollection::printList() {
 void ItemCollection::findById(unsigned long id) {
     for(int i=0; i<itemNum; i++) {
         if(itemList[itemNum].getId() == id) {
-            cout << "Here are the details for the item you are looking for:-" << endl;
+            cout << "> Here are the details for the item you are looking for:-" << endl;
             itemList[itemNum].print();
             return;
         }
     }
-    cout << "Error fetching information!" << endl;
+    cout << "> Error fetching information!" << endl;
 }
 
 void ItemCollection::findByName(string name) {
     for(int i=0; i<itemNum; i++) {
         if(itemList[itemNum].getName().compare(name)==0) {
-            cout << "Here are the details for the item you are looking for:-" << endl;
+            cout << "> Here are the details for the item you are looking for:-" << endl;
             itemList[itemNum].print();
             return;
         }
     }
-    cout << "Error fetching information!" << endl;
+    cout << "> Error fetching information!" << endl;
 }
 

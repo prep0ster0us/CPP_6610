@@ -25,30 +25,35 @@ int main() {
         switch (input) {
             case 1:
                 addItem(itemCol, itemCol.getTotalItems());
+                break;
             case 2:
                 itemCol.printList();
+                break;
             case 3: {
                 unsigned long itemID;
-                cout << "Please enter the Item ID to find: ";
+                cout << "\nPlease enter the Item ID to find:  ";
                 // ***** add check for ID format
                 cin >> itemID;
                 itemCol.findById(itemID);
+                break;
             }
             case 4: {
                 string itemName;
-                cout << "Please enter the Item name to find: ";
+                cout << "\nPlease enter the Item name to find:  ";
                 cin >> itemName;
                 itemCol.findByName(itemName);
+                break;
             }
             case 5:
                 cout << "Quitting.." << endl;
-                break;
+                return 0;
             default:
-                cout << "Invalid input! Please try again." << endl;
+                cout << "> Invalid input! Please try again.\n" << endl;
+                break;
         }
-    } while (1 <= input && input <= 5);
+    } while (true);
 
-    return 0;
+//    return 0;
 }
 
 void addItem(ItemCollection& itemCol, int count) {

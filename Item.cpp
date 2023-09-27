@@ -23,5 +23,5 @@ void Item::read() {
     cin >> cost;
     cout << "Enter Item Quantity: ";
     cin >> quantity;
-
+    cout << endl << "> Successfully added " << name << " to inventory.\n\n";
 }
