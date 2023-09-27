@@ -14,6 +14,14 @@ void Item::print() {
     cout << "Item Quantity: " << quantity << endl;
 }
 
-void Item::add(unsigned long id, string name, float cost, int quantity) {
+void Item::read() {
+    cout << "Enter Item ID: ";
+    cin >> id;
+    cout << "Enter Item Name: ";
+    getline(cin>>ws, name);
+    cout << "Enter Item Cost: ";
+    cin >> cost;
+    cout << "Enter Item Quantity: ";
+    cin >> quantity;
 
 }

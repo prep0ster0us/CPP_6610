@@ -19,16 +19,16 @@ private:
     int itemNum;
 
 public:
-    ItemCollection() { itemNum = 0; }
+    ItemCollection() { itemNum = 0; };
     void add(Item obj);
     void printList();
     void findById(unsigned long id);
     void findByName(string name);
     // getter
-    int getTotalItems() { return this->itemNum; }
+    const int getTotalItems() { return this->itemNum; }
 
     // setter
-    void setTotalItems(int itemNum) { this->itemNum = itemNum; }
+//    void setTotalItems(int itemNum) { this->itemNum = itemNum; }
 };
 
 #endif //ASSIGNMENT2_ITEMCOLLECTION_HPP

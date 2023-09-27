@@ -25,6 +25,7 @@ public:
         this->quantity = quantity;
     }
     void print();
+    void read();
     // getters
     unsigned long getId() { return id; }
     string getName() { return name; }
