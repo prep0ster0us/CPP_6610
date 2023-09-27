@@ -19,6 +19,7 @@ int main() {
         cout << "3. Find Item by ID" << endl;
         cout << "4. Find Item by Name" << endl;
         cout << "5. QUIT" << endl;
+        cout << "SELECT: ";
         cin >> input;
 
         switch (input) {

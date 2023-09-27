@@ -19,7 +19,7 @@ private:
     int itemNum;
 
 public:
-    ItemCollection() { itemNum = 0; };
+    ItemCollection() { itemNum = 0; }
     void add(Item obj);
     void printList();
     void findById(unsigned long id);
