@@ -1,6 +1,4 @@
-//
-// Created by ritwik on 9/26/2023.
-//
+// Header file for 'Item' class definition
 
 #ifndef ASSIGNMENT2_ITEM_HPP
 #define ASSIGNMENT2_ITEM_HPP
@@ -9,6 +7,7 @@
 
 using namespace std;
 
+// Item class
 class Item {
 private:
     unsigned long id;
@@ -18,6 +17,7 @@ private:
 
 public:
     Item() {};
+    // constructor for initialisation
     Item(unsigned long id, string name, float cost, int quantity) {
         this->id = id;
         this->name = name;
@@ -29,15 +29,6 @@ public:
     // getters
     unsigned long getId() { return id; }
     string getName() { return name; }
-    float getCost() { return cost; }
-    int getQuantity() { return quantity; }
-
-    // setters
-    void setId(unsigned long id) { this->id = id; }
-    void setName(string name) { this->name = name; }
-    void setCost(float cost) { this->cost = cost; }
-    void setQuantity(int quantity) { this->quantity = quantity; }
-
 };
 
 
