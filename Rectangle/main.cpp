@@ -1,10 +1,10 @@
 #include <iostream>
 #include <string>
-#include "Rectangle.hpp"
+#include "Rectangle.cpp"
 
 using namespace std;
 
-void printInfo(Rectangle& obj);
+void printInfo(Rectangle& obj, int id);
 void compareMsg(int result);
 
 int main() {
@@ -12,8 +12,8 @@ int main() {
     cout << "\n---- Program execution start ----\n";
 
     Rectangle r1(2.0, 7.5), r2(5.0, 3.0);
-    printInfo(r1);
-    printInfo(r2);
+    printInfo(r1, 1);
+    printInfo(r2, 2);
 
     compareMsg(r1.sameArea(r2));
 
@@ -27,8 +27,9 @@ void printInfo(Rectangle& obj, int id) {
     obj.show();
     cout << endl;
 
-    cout << "AREA =      " << obj.area() << endl;
+    cout << "AREA      = " << obj.area() << endl;
     cout << "PERIMETER = " << obj.perimeter() << endl;
+    cout << "\n";
 }
 
 void compareMsg(int result) {
