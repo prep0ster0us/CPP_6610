@@ -23,9 +23,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4834542c-a934-4116-b913-b20b0c9df1b1" name="Changes" comment="Code write-up completed, not working">
+    <list default="true" id="4834542c-a934-4116-b913-b20b0c9df1b1" name="Changes" comment="Fixed undefined reference error">
+      <change afterPath="$PROJECT_DIR$/Lab Work/labwork_oct06.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rectangle/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Rectangle/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +72,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="C/C++ File.main.cpp (1)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ritwi\CLionProjects\CPP_6610" />
+      <recent name="C:\Users\ritwi\CLionProjects\CPP_6610\Lab Work" />
+    </key>
+  </component>
+  <component name="RunManager" selected="C/C++ File.labwork_oct06.cpp">
     <configuration name="Assignment2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment2" TARGET_NAME="Assignment2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment2" RUN_TARGET_NAME="Assignment2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="labwork_oct06.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_6610" TARGET_NAME="labwork_oct06.cpp" CONFIG_NAME="labwork_oct06.cpp">
+      <option name="sourceFile" value="Lab Work\labwork_oct06.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="main.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_6610" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
@@ -90,12 +103,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ File.labwork_oct06.cpp" />
       <item itemvalue="C/C++ File.main.cpp (1)" />
       <item itemvalue="C/C++ File.main.cpp" />
       <item itemvalue="CMake Application.Assignment2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.labwork_oct06.cpp" />
         <item itemvalue="C/C++ File.main.cpp (1)" />
         <item itemvalue="C/C++ File.main.cpp" />
         <item itemvalue="C/C++ File.main.cpp" />
@@ -116,7 +131,8 @@
       <workItem from="1696029345830" duration="12000" />
       <workItem from="1696477573001" duration="224000" />
       <workItem from="1696542618620" duration="1327000" />
-      <workItem from="1696563675262" duration="3046000" />
+      <workItem from="1696563675262" duration="3254000" />
+      <workItem from="1696633183885" duration="4724000" />
     </task>
     <task id="LOCAL-00001" summary="itemCollection source clean up">
       <option name="closed" value="true" />
@@ -190,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696543947206</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed undefined reference error">
+      <option name="closed" value="true" />
+      <created>1696567066707</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696567066707</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +237,7 @@
     <MESSAGE value="added comments" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Code write-up completed, not working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code write-up completed, not working" />
+    <MESSAGE value="Fixed undefined reference error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed undefined reference error" />
   </component>
 </project>
